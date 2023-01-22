@@ -1,0 +1,12 @@
+.options {
+    display: none;
+  }
+  
+  .main-button:hover + .options, .main-button:active + .options {
+    display: block;
+  }
+  
+  .option-button {
+    margin-top: 10px;
+  }
+  

@@ -161,6 +161,9 @@
       }
     }
   });
+ /**
+   * NEW CODE FOR HIDDEN BUTTONS
+   */
 
   /**
    * Testimonials slider
