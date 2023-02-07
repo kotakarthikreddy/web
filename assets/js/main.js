@@ -164,7 +164,19 @@
  /**
    * NEW CODE FOR HIDDEN BUTTONS
    */
+    const parentBtns = document.querySelectorAll(".parent-btn");
 
+    parentBtns.forEach((parentBtn) => {
+      parentBtn.addEventListener("click", () => {
+        const subBtns = parentBtn.nextElementSibling;
+        if (subBtns.style.display === "flex") {
+          subBtns.style.display = "none";
+        } else {
+          subBtns.style.display = "flex";
+        }
+      });
+    });
+ 
 
   /**
    * Testimonials slider
