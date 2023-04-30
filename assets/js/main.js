@@ -176,7 +176,15 @@
         }
       });
     });
- 
+ // Set the tooltip text
+const tooltip = document.querySelector('.tooltip');
+tooltip.innerHTML = `
+        <a href="https://www.linkedin.com/in/karthik-kumar-reddy-kota/" target="blank">Kota Karthik Kumar Reddy </a>
+        <a href="https://www.linkedin.com/in/phaniswar-reddy-27070a197/"target="blank">T.CH.Phaniswar Reddy</a><br>
+        <a href="https://instagram.com/_._venkatesh_._?igshid=YmMyMTA2M2Y="target="blank">Katuri Venkatesh </a><br>
+        <a href="https://www.linkedin.com/in/likhita-kommuri"target="blank">Kommuri Likhita </a>
+`;
+
 
   /**
    * Testimonials slider
