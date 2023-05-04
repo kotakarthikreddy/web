@@ -652,7 +652,8 @@ section {
 }
 
 .note-box p {
-  margin: 0;
+  margin: 20px;
+  align-content: center;
 }
 
 
@@ -1726,7 +1727,7 @@ canvas {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 80px 0;
+  padding: 30px 0;
 }
 
 #footer .footer-top h3 {
@@ -1816,8 +1817,8 @@ canvas {
   border-top: 1px solid #3b0e41;
   z-index: 2;
   position: relative;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 #footer .copyright {
@@ -1827,6 +1828,9 @@ canvas {
 #footer .credits {
   float: right;
   font-size: 13px;
+}
+#footer .credits a {
+  color: white;
 }
 
 @media (max-width: 768px) {
